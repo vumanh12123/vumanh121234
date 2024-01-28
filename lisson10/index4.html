@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #todo-list {
+       width: 300px;
+       margin: 0 auto;
+    }
+
+    #new-todo-input {
+       width: 100%;
+       padding: 5px;
+       margin-bottom: 5px;
+    }
+
+    #new-todo-button {
+       padding: 5px;
+    }
+
+    #todo-items {
+       list-style-type: none;
+       padding: 0;
+    }
+    #favorite-list-item {
+      text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <script src="./btvn.js"></script>
+    <div id="todo-list">
+        <input type="text" id="new-todo-input" placeholder="Nhập nội dung việc mới"><br>
+        <button id="new-todo-button">Tạo công việc</button><br>
+        <ul id="todo-items"></ul>
+        <h2>Danh sách công việc cần làm:</h2>   
+      </div>
+      <ul id="favorite-list">
+         <li class="favorite-list-item">Đi chơi </li>
+         <li class="favorite-list-item">làm bài tập</li>
+         <li class="favorite-list-item">giặt quần áo </li>
+     </ul>
+</body>
+</html>
